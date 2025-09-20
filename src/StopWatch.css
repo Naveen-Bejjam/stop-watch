@@ -1,0 +1,48 @@
+.stopWatch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 60%;
+    height: 80%;
+    background-color: burlywood;
+    flex-direction: column;
+
+}
+.timer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    /* gap : 5%; */
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:darkslategrey;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap : 3%;
+    align-self: stretch;
+    justify-content: center;
+}
+button{
+    font-size: medium;
+    font-weight: 600;
+    min-width: 25%;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.stop{
+    background-color: red;
+}
+.start{
+    /* border : "1px solid green"; */
+    background-color: green;
+}
+.reset{
+    background-color:aqua;
+}
